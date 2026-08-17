@@ -16,6 +16,8 @@ Aplikasi web sederhana untuk mengelola data buku digital, dibuat dengan
 
 ## 1. Migration
 
+Buat database kosong menggunakan MySQL bernama perpustakaan_digital
+
 ```bash
 php spark migrate
 php spark db:seed UserSeeder
@@ -26,7 +28,9 @@ Perintah di atas akan membuat tabel `users` & `buku`, membuat akun admin
 default (**username: `admin`**, **password: `admin123`**), dan mengisi
 beberapa contoh data buku.
 
-## 2. Jalankan server
+Atau melakukan import manual pada file `perpustakaan_digital.sql` ke dalam database
+
+## 2. Running Server
 
 ```bash
 php spark serve
