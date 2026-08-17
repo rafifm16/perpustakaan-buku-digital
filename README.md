@@ -38,7 +38,7 @@ CRUD data buku, mencoba fitur pencarian, dan pagination-nya.
 
 ---
 
-## 3. Struktur fitur yang dinilai
+## 3. Structure
 
 | Fitur                  | Lokasi Kode                                                         |
 | ---------------------- | ------------------------------------------------------------------- |
